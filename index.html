@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>task5</title>
+        <style>
+            body
+            {
+                padding: 0;
+                margin: 0;
+                font-family: Arial, tahoma, sans-serif;
+                background: lightblue;
+            }
+            .header
+            {
+                height: 70px;
+                background: darkblue;
+            }
+            .container
+            {
+                width: 83%;
+                margin: auto;
+            }
+            .header .container .logo
+            {
+                color: white;
+                padding-top: 23px;
+                font-size: 22px;
+                font-weight:bold;
+            }
+            .header .container ul
+            {
+                list-style: none;
+                float: right;
+
+            }
+            .header .container ul li
+            {
+                color: white;
+                display: inline-block;
+                transform: translateY(-40px);
+                margin-right: 45px;
+            }
+            h1
+            {
+                margin-top: 120px;
+                text-align: center;
+            }
+            h3
+            {
+                text-align: center;
+                color: gray;
+            }
+            .boxes
+            {
+                margin-top: 70px;
+            }
+            .box1, .box2, .box3
+            {
+                height: 450px;
+                width: 300px;
+                background: white;
+                display: inline-block;
+                margin-right: 20px;
+                padding: 20px;
+                border-radius: 15px;
+                box-shadow: 10px 10px 10px gray;
+                margin-bottom: 10px;
+            }
+            h2
+            {
+                margin-bottom: 2px;
+            }
+            h2 span
+            {
+                float: right;
+            }
+            h5
+            {
+                margin-top: 0;
+                color: gray;
+                padding-bottom: 25px;
+                border-bottom: 2px solid lightgray; 
+            }
+            h5 span
+            {
+                float: right;
+                color: black;
+            }
+            .list
+            {
+                margin-bottom: 25px;
+                font-size: 13.5px;
+            }
+            .list span
+            {
+                float: right;
+                font-weight: bold;
+            }
+            .list span img
+            {
+                width: 20px;
+                height: 20px;
+                float: right;
+            }
+            .button
+            {
+                transform: translateY(87px);
+            }
+            button
+            {
+                padding: 15px;
+                border: 0;
+                background: lightgray;
+                color: gray;
+                border-radius: 20px;
+                display: block;
+                margin: auto;
+                outline: none;
+            }
+            h4
+            {
+                float: right;
+                color: gray;
+                margin-top: 40px;
+                margin-right: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="logo">Dropbox</div>
+                <div class="menu">
+                    <ul>
+                        <li>pricing</li>
+                        <li>Compare Plans</li>
+                        <li>Features</li>
+                        <li>Learn More</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <h1>Choose the appropriate plan for you.</h1>
+            <h3>You can cancel your plan any time.</h3>
+            
+            <div class="button">
+            <button style="background: blue; padding: 10px; color: white; margin-bottom: 0; transform: translateX(-25px)">
+                Most Popular
+            </button>
+            </div>
+                
+            <div class="boxes">
+            <div class="box1">
+                <h2>Basic <span>&euro;0</span></h2>
+                <h5>For personal use <span>/month</span></h5>
+                <div class="list">
+                    Storage <span>2GB</span>
+                </div>
+                <div class="list">
+                    Access anywhere <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    Smart synchronization <span><img src="x-sign.png"></span>
+                </div>
+                <div class="list">
+                    Full text search <span><img src="x-sign.png"></span>
+                </div>
+                <div class="list">
+                    Folder without mobile connection <span><img src="x-sign.png"></span>
+                </div>
+                <div class="list">
+                    Uploads from camera <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    scanning of documents <span><img src="right-sign.png"></span>
+                </div>
+                <button>CURRENT PLAN</button>
+            </div>
+            <div class="box2">
+                <h2>Plus <span>&euro;9.99</span></h2>
+                <h5>For everyday use <span>/month</span></h5>
+                <div class="list">
+                    Storage <span>1TP</span>
+                </div>
+                <div class="list">
+                    Access anywhere <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    Smart synchronization <span><img src="x-sign.png"></span>
+                </div>
+                <div class="list">
+                    Full text search <span><img src="x-sign.png"></span>
+                </div>
+                <div class="list">
+                    Folder without mobile connection <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    Uploads from camera <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    scanning of documents <span><img src="right-sign.png"></span>
+                </div>
+                <button style="background: blue; color: white; box-shadow: 4px 4px 10px gray;">GET STARTED</button>
+            </div>
+            <div class="box3">
+                <h2>Professional <span>&euro;19.99</span></h2>
+                <h5>For intensive use <span>/month</span></h5>
+                <div class="list">
+                    Storage <span>1TP</span>
+                </div>
+                <div class="list">
+                    Access anywhere <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    Smart synchronization <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    Full text search <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    Folder without mobile connection <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    Uploads from camera <span><img src="right-sign.png"></span>
+                </div>
+                <div class="list">
+                    scanning of documents <span><img src="right-sign.png"></span>
+                </div>
+                <button style="background: blue; color: white; box-shadow: 4px 4px 10px gray;">GET STARTED</button>
+            </div>
+            </div>
+            <h4>Still have doubts? Contact us</h4>
+        </div>
+    </body>
+</html>
